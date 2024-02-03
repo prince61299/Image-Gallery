@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ImageGalleryApp">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-route.js"></script>
+    <script src="app.js"></script>
+    <meta charset="UTF-8" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+  </head>
+
+  <body ng-controller="indexController">
+    <nav>
+      <ul>
+        <li><a ng-href="#/">Home</a></li>
+        <li><a ng-href="#/favourites">Favourites</a></li>
+        <li><a ng-href="#/share">Share</a></li>
+      </ul>
+      <ul>
+        <ul>
+          <li ng-if="!isAuth"><a ng-href="#/signin">Sign In</a></li>
+          <li ng-if="!isAuth"><a ng-href="#/signup">Sign Up</a></li>
+          <li ng-if="isAuth" ng-click="logout()">
+            <a ng-href="#/signout">Sign Out</a>
+          </li>
+        </ul>
+      </ul>
+    </nav>
+    <div ng-view></div>
+
+    <footer class="footer">Made with ❤️ by Mitanshi</footer>
+  </body>
+</html>

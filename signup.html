@@ -1,0 +1,31 @@
+<div ng-app="ImageGalleryApp" ng-controller="SignupController">
+  <h2>Sign Up</h2>
+  <form ng-submit="signup()">
+    <label for="name">Name:</label><br />
+    <input
+      type="name"
+      class="inp"
+      placeholder="Name"
+      ng-model="user.name"
+      required
+    /><br />
+    <label for="email">Email:</label><br />
+    <input
+      type="email"
+      class="inp"
+      placeholder="Email"
+      ng-model="user.email"
+      required
+    /><br />
+    <label for="password">Password:</label><br />
+    <input
+      type="password"
+      class="inp"
+      placeholder="Password"
+      ng-model="user.password"
+      required
+    /><br />
+    <button type="submit" class="btn">Signup</button>
+  </form>
+  <a href="#/signin">Already User? Login</a>
+</div>

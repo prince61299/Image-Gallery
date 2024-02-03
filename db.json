@@ -1,0 +1,77 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Prince",
+      "email": "prince61299@gmail.com",
+      "password": "12356",
+      "favorites": []
+    },
+    {
+      "id": 2,
+      "username": "User",
+      "email": "user@gmail.com",
+      "password": "user123",
+      "favorites": []
+    },
+    {
+      "id": 3,
+      "username": "User1",
+      "email": "user1@gmail.com",
+      "password": "user1234",
+      "favorites": []
+    },
+    {
+      "id": 4,
+      "name": "Prince",
+      "email": "prince61299@gmail.com",
+      "password": "12345",
+      "favorites": []
+    },
+    {
+      "id": 5,
+      "name": "Mitanshi",
+      "email": "mitanshi.gaur09@gmail.com",
+      "password": "12345",
+      "favorites": []
+    },
+    {
+      "id": 6,
+      "name": "Prince",
+      "email": "prince61299@gmail.com",
+      "password": "12345",
+      "favorites": []
+    },
+    {
+      "id": 7
+    },
+    {
+      "email": "shahnwaz@gmaic.com",
+      "password": "123123",
+      "name": "shahnwaaz",
+      "id": 8,
+      "favorites": [
+        {
+          "name": "Ahmet Çığşar",
+          "img": "https://images.pexels.com/photos/17441013/pexels-photo-17441013.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        },
+        {
+          "name": "Chrys Stam",
+          "img": "https://images.pexels.com/photos/17445490/pexels-photo-17445490.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        },
+        {
+          "name": "Ahmet Çığşar",
+          "img": "https://images.pexels.com/photos/17441013/pexels-photo-17441013.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        },
+        {
+          "name": "Annaëlle Quionquion",
+          "img": "https://images.pexels.com/photos/17447002/pexels-photo-17447002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        },
+        {
+          "name": "Jack Granger",
+          "img": "https://images.pexels.com/photos/17454328/pexels-photo-17454328.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        }
+      ]
+    }
+  ]
+}
